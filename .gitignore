@@ -1,1 +1,4 @@
 .env
+chroma_db
+venv
+last_read.json
