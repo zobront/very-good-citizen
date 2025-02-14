@@ -25,3 +25,9 @@ class ForumAPI:
         except requests.RequestException as e:
             print(f"Error fetching post content: {e}")
             return None
+
+    @staticmethod
+    def post_comment(topic_id, comment):
+        print("Printing comment to simulate forum post...")
+        print(f"Suggested comment: {comment}")
+        print("-" * 50)
